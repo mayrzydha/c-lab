@@ -1,9 +1,15 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
-    printf("Hello!\n");
-    scanf("Input your name: \n");
+    bool yes = true;
+
+    if (yes)
+    {
+        printf("yes is true!\n");
+    }
+    else
+        printf("no is wrong!\n");
 
     return 0;
 }
